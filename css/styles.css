@@ -1,7 +1,54 @@
+:root {
+  --title-text-color: #212121;
+  --main-text-color: #757575;
+  --second-text-color: #ffffff;
+  --accent-text-color: #2196f3;
+  --second-background-color: #2f303a;
+}
+
 body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   background-color: #ffffff;
-  color: #757575;
+  color: var(--title-text-color);
 }
 .list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*Верхняя линия*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-text-color);
+}
+.logo-dark {
+  color: #000000;
+}
+.header-item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link {
+  color: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
 }
