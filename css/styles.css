@@ -86,6 +86,9 @@ body {
   color: var(--second-text-color);
   background-color: var(--accent-color);
 }
+.pointer {
+  cursor: pointer;
+}
 
 .hero-btn:hover,
 .hero-btn:focus {
