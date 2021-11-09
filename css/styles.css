@@ -79,9 +79,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
   background-color: var(--accent-color);
@@ -196,7 +193,10 @@ body {
 .footer-link-adress {
   color: var(--second-text-color);
 }
-.footer-link-mail,
-.footer-link-tel {
+.footer-link {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--second-text-color);
 }
