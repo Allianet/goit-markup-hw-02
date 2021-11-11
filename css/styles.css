@@ -8,10 +8,8 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   background-color: #ffffff;
   color: var(--title-text-color);
@@ -50,12 +48,12 @@ body {
 .current {
   color: var(--accent-color);
 }
-/*.header-contacts-item {
+.header-contacts-item {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-}*/
+}
 .header-contacts-link {
   color: var(--main-text-color);
 }
@@ -82,8 +80,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--second-text-color);
   background-color: var(--accent-color);
-}
-.pointer {
   cursor: pointer;
 }
 
@@ -107,26 +103,26 @@ body {
 
 .features-title {
   font-weight: 700;
-  font-size: inherit;
+  font-size: 14px; /*задаем т.к заголовок*/
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
 .features-text {
-  line-height: 1.71;
   color: var(--main-text-color);
 }
 
 /*Чем мы занимаемся*/
 .about-title {
-  font-weight: 700d;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--title-text-color);
 }
-/*Команда*/
 
+/*Команда*/
 .team {
   background-color: #f5f4fa;
 }
@@ -157,6 +153,7 @@ body {
   line-height: 1.62;
   color: var(--title-text-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .filters-btn:hover,
 .filters-btn:focus {
@@ -187,16 +184,16 @@ body {
 .footer-adress {
   font-style: normal;
 }
-.footer-item {
-  line-height: 1.71;
-}
 .footer-link-adress {
   color: var(--second-text-color);
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-link:hover,
-.footer-link:focus {
-  color: var(--second-text-color);
+.footer-link:focus,
+.footer-link-adress:hover,
+.footer-link-adress:focus {
+  color: var(--accent-color);
 }
